@@ -1,0 +1,41 @@
+javac -d classes --source-path
+java -cp classes .... 5000
+
+cannot have 2 servers listening on same port, 2nd one will have error
+
+
+use while loop to make the server continually moving
+
+make sure open server first in terminal
+
+
+
+afternoon workshop:
+Network File Copy
+
+Server java -cp classes day04FileServer
+Client java -cp classes day04.FileCopy myfile       client copy over to server (can put them all in same directory)
+
+
+
+
+
+workshop:
+
+java -cp classes day04.FileServer
+
+
+
+
+
+
+
+
+
+
+
+//////day5
+
+
+
+gol\glider.gol   (add behind java -cp classes line in terminal to open/run)
