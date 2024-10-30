@@ -44,8 +44,10 @@ thrPool.submit(handler);
 
 }
 
-
-
 //Thread pool are the workers to help us run stuff. If not enough then server stuck at readnig/writing before allowing connection to connect
 //Just like the main program, threads from this pool must finish their own task before being able to help somewhere else
 //Pros of using 2 threads per socket(aka client): more responsive as one can read and one can write, but more resources needed
+
+
+//ThreadedServerMain Class: Manages the server setup, creates a thread pool, and accepts client connections. When a client connects, it assigns a thread to handle communication with the client.
+//ClientHandler Class: Implements Runnable, representing the work each thread performs. It handles the client-server interaction by reading client messages, processing them, and responding.
