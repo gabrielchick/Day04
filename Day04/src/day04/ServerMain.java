@@ -70,8 +70,12 @@ public class ServerMain {
 
 
 
-//Server: Continuously listens on a specific port (default: 3000). When a client connects, the server accepts the connection, reads a message sent by the client, processes it (e.g., transforms it to uppercase and adds a timestamp), and sends it back. It’s designed to accept one connection at a time, but can be modified to handle multiple connections.
-//Client: Connects to the server on the same port, sends a message, and waits for a response from the server. This basic client will connect, send a message, read the response, and close the connection
+//Server: Continuously listens on a specific port (default: 3000).
+//When a client connects, the server accepts the connection, reads a message sent by the client, processes it
+//(e.g., transforms it to uppercase and adds a timestamp), and sends it back.
+//It’s designed to accept one connection at a time, but can be modified to handle multiple connections.
+//Client: Connects to the server on the same port, sends a message, and waits for a response from the server.
+//This basic client will connect, send a message, read the response, and close the connection
 
 
 
